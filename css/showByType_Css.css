@@ -1,0 +1,61 @@
+
+#showByTypeBox{
+	width:900px;
+	height:1000px;
+	margin-top:20px;
+	}
+#showByTypeBox > ul{
+	/*padding-right:0px;
+    margin-left:10px;*/
+    /*padding-right:25px;*/
+	}
+#showByTypeBox > ul > li{
+	float:left;
+	padding:20px;
+	width:220px;
+	height:250px;
+	list-style:none;
+	cursor:pointer;
+	}
+#showByTypeBox >ul> li > div{
+	width:210px;
+	height:230px;
+	padding:5px;
+	border:2px solid #E0E0E0;
+	}
+#showByTypeBox >ul> li > div > img.cakeImgByType{
+	padding:5px;
+	width:200px;
+	height:180px;
+	}
+
+#showByTypeBox >ul> li > div > p.pname{
+	font-size:16px;
+	font-weight:bolder;
+	text-align:center;
+}
+
+#pagination{
+	margin-top:-150px;
+	float:right;
+	margin-right:30px;
+}
+
+#pagination > ul{
+    list-style:none;
+}
+
+#pagination > ul > li{
+    width:30px;
+    height:20px;
+    background-color:black;
+    border:1px solid #DDD;
+    color: white;
+    font-size:14px;
+    font-weight:bolder;
+    text-align:center;
+    padding-left:5px;
+    padding-right:5px;
+    float: left;
+    cursor: pointer;
+}

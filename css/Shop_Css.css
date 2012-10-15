@@ -1,0 +1,96 @@
+#displayBoard{ 
+	height:220px; 
+	padding-top:60px;
+	margin-left:303px;
+	}
+#listbox0{height:220px; width:450px; z-index:4; float:right;cursor:pointer; display:inline; margin-left:0px; position:absolute; margin-top:0px;}
+#listbox1{height:220px; width:450px; z-index:3; float:right;cursor:pointer; display:inline; margin-left:29px; position:absolute;margin-top:0px;}
+#listbox2{height:220px; width:450px; z-index:2; float:right;cursor:pointer; display:inline; margin-left:58px; position:absolute;margin-top:0px;}
+#listbox3{height:220px; width:450px; z-index:1; float:right;cursor:pointer; display:inline; margin-left:87px; position:absolute;margin-top:0px;}
+
+.list{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-bottom: 4px solid #999;
+	border-right:4px solid #999;
+	}
+
+#displayBoard > div > img{
+	height:220px;
+	width:450px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border-bottom: 2px solid #333;
+	border-right:2px solid #333;
+	}
+	
+#recommendation{
+	position:absolute;
+	z-index:2;
+	height:220px;
+	left:50%;
+	margin:-220px auto auto -430px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-bottom:2px solid #AA0004;
+	border-right:2px solid #AA0004;
+	}
+
+#title{
+	float:left;
+	width:30px;
+	height:400px;
+	text-align:center;
+	letter-spacing:5px;
+	font-size:24px;
+	font-weight:bolder;
+	color:#AA0004;
+	text-shadow:2px #000;
+	margin-top:-5px;
+	}
+#title > img{
+	float:left;
+	margin-left:-10px;
+	}		
+#title > p{
+	margin-top:70px;
+	}
+#hotProducts{
+	margin-top:-20px;
+	margin-left:45px;
+	padding-right:10px;
+	color: #000;
+		}
+#hotProducts > img{
+	padding:4px;
+	width:350px;
+	height:213px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	}
+#hotProducts > p{
+	padding:10px;
+	width:25px;
+	height:100%;
+	font-size:20px;
+	float:left;
+	margin-top:40px;
+	font-weight:bolder;
+	cursor:pointer;
+	}
+#goToThere{
+	position:relative;
+	z-index:10;
+	float:right;
+	margin-right:473px;
+	margin-top:20px;
+	}
+#goToThere:hover{
+	height:57px;
+	margin-right:471px;
+	}
+

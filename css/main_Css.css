@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+#navigationDiv{
+	position:absolute;
+	width:500px;
+	height:242px;
+	left:50%;
+	margin:120px auto auto -150px;
+	}
+#header_navigation{
+	z-index:1;
+	font-stretch:expanded;
+	/*font-size:18px;*/
+	font-weight:bolder;
+	list-style:none;
+	text-shadow:2px;
+	text-align:center;
+	letter-spacing:2px;
+	}
+
+.navigation{
+	float:right;
+	}
+	
+.target{
+	text-decoration:none;
+	cursor:pointer;
+	text-shadow:0px 0px 1px #fff;
+	color:#000;
+	}
+#header_navigation >li > a{
+	text-decoration:none;
+	text-shadow:0px 0px 1px #fff;
+	color:#000;
+	}
+#overContent{
+	position:absolute;
+	z-index:2;
+	background:url(../images/ribbon.png) repeat-x;
+	width:1128px; 
+	height:250px;
+	left:50%;
+	margin:160px auto auto -567px;
+	}
+		
+#contents{
+	width:895px;
+	height:950px;;
+	position:absolute;
+	left:50%;
+	margin:250px auto auto -450px;
+	border:#000 2px solid;
+	border-top:none;
+	}
+
+#optionBox{
+    display: none;
+    background:url(/sampleCake/images/optionBox.png) no-repeat;
+    z-index:11;
+    position: absolute;
+    top:25%;
+    left:50%;
+    /*margin-top:-250px;*/
+    margin-left:-200px;
+    width:600px;
+    height:370px;
+}
+
+#optionBoxInfo{
+	list-style:none;
+	margin-left:50px;
+	margin-top:150px;
+	width:330px;
+}
+
+#optionBoxInfo > li{
+	float: left;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+
+#optionBoxInfo > .optionlable{
+	font-weight:bolder;
+	font-size:16px;
+	color: #000;
+}
+
+#optionBoxInfo > li > input{
+	color:#AA0004;
+	height:20px;
+}
+
+#selectMemberCard{
+    border:#AA0004 1px solid;
+    width:200px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+
+#selectMemberCardBtn{
+    background:url(/sampleCake/images/downarrow.png) no-repeat;
+    width:20px;
+    height:50px;
+    margin-top:5px;
+}
+#selectMemberCardBtn:hover{
+    cursor: pointer;
+}
+
+#selectDate{
+	margin-top:0px;
+}
+
+/*a.dp-choose-date > img{
+	margin-top:5px;
+	padding-left:10px;
+}*/
+
+
+/*input.date-pick{
+	border:#AA0004 1px solid;
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin-top:-10px;
+    width:200px;
+}
+*/
+#datePick{
+	border:#AA0004 1px solid;
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin-top:-10px;
+    width:200px;
+}
+#selectDateBtn{
+    background:url(/sampleCake/images/downarrow.png) no-repeat;
+    width:20px;
+    height:50px;
+    margin-top:5px;
+}
+#selectDateBtn:hover{
+    cursor: pointer;
+}
+
+
+li > #selectCount{
+	width:50px;
+	border:#AA0004 1px solid;
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+
+#optionBoxInfo > li >#cardMenu{
+	display: none;
+	position: absolute;
+	background:white;
+	width:160px;
+	border-right:#AA0004 1px solid;
+	border-left:#AA0004 1px solid;
+	border-top:#AA0004 3px solid;
+	border-bottom:#AA0004 3px solid;
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    list-style:none;
+    margin-top:-80px;
+    margin-left:-62px;
+    z-index:100px;
+}
+
+#optionBoxInfo > li >#cardMenu > li{
+	width:160px;
+	color:black;
+	font-weight:bolder;
+	text-align:center;
+}
+
+#optionBoxInfo > li >#cardMenu > li:hover{
+	cursor: pointer;
+	color: #AA0004;
+}
+
+li.optionBoxBtn{
+	margin-top:30px;
+	margin-left:0px;
+}
+
+img.optionBoxBtn{
+	width:70px;
+	height:35px;
+}
+
+img.optionBoxBtn:hover{
+	cursor: pointer;
+	margin-top:-1px;
+}
+
+#optionBoxInfo > li >#reserveMenu{
+	display: none;
+	position: absolute;
+	background:white;
+	width:160px;
+	border-right:#AA0004 1px solid;
+	border-left:#AA0004 1px solid;
+	border-top:#AA0004 3px solid;
+	border-bottom:#AA0004 3px solid;
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    list-style:none;
+    margin-top:-32px;
+    margin-left:-222px;
+    z-index:100px;
+}
+
+#optionBoxInfo > li >#reserveMenu > li{
+	width:160px;
+	color:black;
+	font-weight:bolder;
+	text-align:center;
+}
+
+#optionBoxInfo > li >#reserveMenu > li:hover{
+	cursor: pointer;
+	color: #AA0004;
+}
+
+#optionBox >#succeedOptionLable{
+	display: none;
+	font-size:40px;
+	font-weight:bolder;
+	color:#AA0004;
+	margin-top:-50px;
+	margin-left:130px;
+}
+
+#byClass > ul{
+	position:absolute;
+	list-style:none;
+	color:white;
+	font-size:18px;
+	font-weight:bolder;
+	margin-top:247px;
+	margin-left:220px;
+	z-index:3;
+}
+
+#byClass > ul > li{
+	float: left;
+	padding-left:10px;
+	padding-right:10px;
+	cursor: pointer;
+}

@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*body{
+	max-width:800px;
+	max-height:600px;
+	}*/
+#pagination{
+	margin-top:-50px;
+	float:right;
+	margin-right:30px;
+	}
+/*.jPaginate{
+    height:34px;
+    position:relative;
+    color:#a5a5a5;
+    font-size:small;   
+    width:100%;
+}
+.jPaginate a{
+    line-height:15px;
+    height:18px;
+    cursor:pointer;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+.jPag-control-back{
+    position:absolute;
+    left:0px;
+}
+.jPag-control-front{
+    position:absolute;
+    top:0px;
+}
+.jPaginate span{
+    cursor:pointer;
+}
+ul.jPag-pages{
+    float:left;
+    list-style-type:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+ul.jPag-pages li{
+    display:inline;
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+ul.jPag-pages li a{
+    float:left;
+    padding:2px 5px;
+}
+span.jPag-current{
+    cursor:default;
+    font-weight:normal;
+    line-height:15px;
+    height:18px;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-next,
+span.jPag-sprevious,
+span.jPag-snext{
+    height:22px;
+    margin:2px;
+    float:left;
+    line-height:18px;
+}
+
+ul.jPag-pages li span.jPag-previous{
+    margin:2px 0px 2px 2px;
+    font-size:12px;
+    font-weight:bold;
+        width:10px;
+
+}
+ul.jPag-pages li span.jPag-next{
+    margin:2px 2px 2px 0px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+}
+span.jPag-sprevious{
+    margin:2px 0px 2px 2px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
+span.jPag-snext{
+    margin:2px 2px 2px 0px;
+    font-size:18px;
+    width:15px;
+     text-align:right;
+}*/
+
+#page > ul{
+    list-style:none;
+}
+
+#page > ul > li{
+    width:30px;
+    height:20px;
+    background-color:black;
+    border:1px solid #DDD;
+    color: white;
+    font-size:14px;
+    font-weight:bolder;
+    text-align:center;
+    padding-left:5px;
+    padding-right:5px;
+    float: left;
+    cursor: pointer;
+}
+
+#productsBox{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	width:830px;
+	height:600px;
+	border-bottom:2px solid #AA0004;
+	border-left:2px solid #AA0004;
+	}
+#productsBox > ul{
+	padding-right:0px;
+    margin-left:65px;
+    /*padding-right:25px;*/
+	}
+#productsBox > ul >.each{
+	float:left;
+	padding:10px;
+	width:220px;
+	height:250px;
+	list-style:none;
+	cursor:pointer;
+	}
+#productsBox >ul> .each >.each_div{
+	width:210px;
+	height:230px;
+	padding:5px;
+	border:2px solid #E0E0E0;
+	}
+#productsBox >ul> .each >.each_div> .each_product{
+	padding:5px;
+	width:200px;
+	height:180px;
+	}
+#productsBox >ul> .each >.each_div>.productBtn{
+    /*margin-left:10px;*/
+    left:50%;
+}
+
+#productsBox >ul> .each >.each_div>.productBtn>.each_purchase{
+	}
+		
+#productsBox >ul> .each >.each_div>.productBtn>.each_reservation{
+	}
+
+#shopFade{
+    display:none;
+    position: absolute;
+    top:0px;
+    left:0px;
+    /*margin-top:-300px;*/
+    /*margin-left:-300px;*/
+    width:100%;
+    height:100%;
+    background-color:#000;
+    z-index:10;
+    -moz-opacity:0.8;
+    opacity:.80;
+    filter:alpha(opacity=88);
+}
+    
+/*#optionBox{
+    display: none;
+    background:url(/sampleCake/images/optionBox.png) no-repeat;
+    z-index:11;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:510px;
+    height:370px;
+}
+
+#selectMemberCard{
+    border:red 1px solid;
+    width:200px;
+    height:50px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+
+#selectMemberCardBtn{
+    background:url(/sampleCake/images/downarrow.png) no-repeat;
+}
+#selectMemberCardBtn:hover{
+    cursor: pointer;
+}*/

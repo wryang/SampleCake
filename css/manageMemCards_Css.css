@@ -1,0 +1,472 @@
+h2,h3{ 
+	margin:0;
+	padding:0;
+	font-size:100%;
+	font-weight:normal;
+}
+
+#manageMember{
+    float:left;
+    margin-left:20px;
+    margin-top:100px;
+}
+
+#manageMember > ul.manageM-menu {
+	list-style:none;
+}
+
+
+.manageM-menu{
+    padding:0;
+    margin:20px auto;
+    width: 150px;
+}
+.manageM-menu li{
+    width: 150px;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 4px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+
+    border-right:2px solid #AA0004;
+}
+.manageM-menu li:last-child{
+    margin-bottom: 0px;
+}
+.manageM-menu li a{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #333;
+    position: relative;
+}
+.manageM-icon{
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 14px;
+    text-shadow: 0px 0px 1px #333;
+    line-height: 90px;
+    position: absolute;
+    width: 50px;
+    left: 5px;
+    text-align: center;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.manageM-content{
+    position: absolute;
+    left: 30px;
+    width: 100px;
+    height: 40px;
+    top: 10px;
+}
+.manageM-main{
+    font-size: 24px;
+    font-weight:bolder;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.manageM-sub{
+    font-size: 14px;
+    color: #666;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.manageM-menu li:hover{
+    background: #FFFFFF;
+    border-right:none;
+    cursor: pointer;
+}
+.manageM-menu li:hover .manageM-icon{
+    font-size: 40px;
+    color: #259add;
+    opacity: 0.8;
+    text-shadow: 0px 0px 13px #fff;
+}
+.manageM-menu li:hover .manageM-main{
+    opacity: 1;
+    color:#AA0004;
+    -webkit-animation: moveFromTop 300ms ease-in-out;
+    -moz-animation: moveFromTop 300ms ease-in-out;
+    -ms-animation: moveFromTop 300ms ease-in-out;
+}
+.manageM-menu li:hover .manageM-sub{
+    color:#F08080;
+    opacity: 1;
+    -webkit-animation: moveFromBottom 300ms ease-in-out;
+    -moz-animation: moveFromBottom 300ms ease-in-out;
+    -ms-animation: moveFromBottom 300ms ease-in-out;
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(200%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-moz-keyframes moveFromBottom {
+    from {
+        opacity: 0;
+        -moz-transform: translateY(200%);
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromBottom {
+    from {
+        opacity: 0;
+        -ms-transform: translateY(200%);
+    }
+    to {
+        opacity: 1;
+        -ms-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes moveFromTop {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(-200%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-moz-keyframes moveFromTop {
+    from {
+        opacity: 0;
+        -moz-transform: translateY(-200%);
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromTop {
+    from {
+        opacity: 0;
+        -ms-transform: translateY(-200%);
+    }
+    to {
+        opacity: 1;
+        -ms-transform: translateY(0%);
+    }
+}
+
+.submitBtn{
+    width:80px;
+    height:35px;
+    margin-right:30px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+#changeForm{
+    display: none;
+}
+
+#membershipCard{
+    width:450px;
+    float: left;
+    margin-top:200px;
+    margin-left:100px;
+}
+
+#membershipCard > ul{
+    list-style:none;
+}
+
+#membershipCard > ul > li{
+    float:left;
+    padding-top:30px;
+}
+
+.input_text{
+    width:200px;
+    border:1px solid #AA0004;
+    height:20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#membershipCard > ul > .mLable{
+    width:150px;
+    font-size:18px;
+    font-weight:bolder;
+}
+
+/*#membershipCard > ul> li >#mSubmitBtn{
+    width:80px;
+    height:35px;
+    margin-right:30px;
+    margin-top:20px;
+}*/
+
+#membershipCard > ul > .mLable{
+    width:150px;
+    font-size:18px;
+    font-weight:bolder;
+}
+
+#recharge{
+    display: none;
+    width:450px;
+    float: left;
+    margin-top:200px;
+    margin-left:100px;
+}
+
+#recharge > ul{
+    list-style:none;
+}
+
+#recharge > ul > li{
+    float:left;
+    padding-top:30px;
+}
+
+#recharge > ul > .chargeLable{
+    width:150px;
+    font-size:18px;
+    font-weight:bolder;
+}
+
+#addMember{
+    display: none;
+    width:450px;
+    float: left;
+    margin-top:150px;
+    margin-left:100px;
+}
+
+#addMember > ul{
+    list-style:none;
+}
+
+#addMember > ul > li{
+    float:left;
+    padding-top:30px;
+}
+
+#addMember > ul > .aLable{
+    width:150px;
+    font-size:18px;
+    font-weight:bolder;
+}
+
+#selectAddrBtn{
+    background:url(/sampleCake/images/downarrow.png) no-repeat;
+    width:20px;
+    height:20px;
+    margin-top:40px;
+    margin-left:10px;
+}
+
+#selectAddrBtn:hover{
+    cursor: pointer;
+}
+
+#addrMenu{
+    display: none;
+    position: absolute;
+    background:white;
+    width:200px;
+    border-right:#AA0004 1px solid;
+    border-left:#AA0004 1px solid;
+    border-top:#AA0004 3px solid;
+    border-bottom:#AA0004 3px solid;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    list-style:none;
+    margin-top:230px;
+    margin-left:190px;
+    z-index:100px;
+}
+
+#addrMenu > ul{
+    list-style:none;
+}
+
+#addrMenu > ul > li{
+    font-size:14px;
+    font-weight:bolder;
+    margin-right:30px;
+}
+
+#addrMenu > ul > li:hover{
+    cursor: pointer;
+    color: #AA0004;
+}
+
+#activeDiv{
+    display:none;
+    width:450px;
+    float:left;
+    margin-top:200px;
+    margin-left:100px;
+}
+
+#activeDiv > ul{
+    list-style:none;
+}
+
+#activeDiv > ul > li{
+    float:left;
+    padding-top:30px;
+}
+
+#activeDiv > ul >.activeLable{
+    width:150px;
+    font-size:18px;
+    font-weight:bolder;
+}
+
+#activeDiv > ul > #search{
+    background:url(/sampleCake/images/search.png) no-repeat;
+    width:50px;
+    height:40px;
+    cursor: pointer;
+    margin-top:20px;
+}
+
+#addrStatistic{
+    display: none;
+}
+
+#memberStatistic{
+    display: none;
+}
+#chartOfMember{
+    width:650px;
+    float: right;
+    margin-top:130px;
+    background:red;
+}
+
+#cardsStatistic{
+    width:650px;
+    height:400px;
+    float: right;
+    margin-top:130px;
+}
+
+#addressStatistic{
+    width:650px;
+    height:300px;
+    float: right;
+    margin-top:0px;
+}
+
+#addClerk{
+    display: none;
+    width:450px;
+    float: left;
+    margin-top:150px;
+    margin-left:100px;
+}
+
+#addClerk > ul{
+    list-style:none;
+}
+
+#addClerk > ul > li{
+    float:left;
+    padding-top:30px;
+}
+
+#addClerk > ul > .aLable{
+    width:150px;
+    font-size:18px;
+    font-weight:bolder;
+}
+
+#clerkselectAddrBtn{
+    background:url(/sampleCake/images/downarrow.png) no-repeat;
+    width:20px;
+    height:20px;
+    margin-top:40px;
+    margin-left:10px;
+}
+
+#clerkselectAddrBtn:hover{
+    cursor: pointer;
+}
+
+#clerkaddrMenu{
+    display: none;
+    position: absolute;
+    background:white;
+    width:200px;
+    border-right:#AA0004 1px solid;
+    border-left:#AA0004 1px solid;
+    border-top:#AA0004 3px solid;
+    border-bottom:#AA0004 3px solid;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    list-style:none;
+    margin-top:180px;
+    margin-left:190px;
+    z-index:100px;
+}
+
+#clerkaddrMenu > ul{
+    list-style:none;
+}
+
+#clerkaddrMenu > ul > li{
+    font-size:14px;
+    font-weight:bolder;
+    margin-right:30px;
+}
+
+#clerkaddrMenu > ul > li:hover{
+    cursor: pointer;
+    color: #AA0004;
+}
+
+#addClerk > div > #ClerksMenu{
+    width:200px;
+    border:1px solid #AA0004;
+    float: left;
+    font-size:16px;
+    /*margin-top:350px;*/
+}
+
+#addClerk > div > #deleteClerkBtn{
+    width:25px;
+    height:25px;
+    margin-left:60px;
+}
+
+#addClerk > div > #deleteClerkBtn:hover{
+    margin-top:1px;
+};

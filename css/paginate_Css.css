@@ -1,0 +1,105 @@
+#pagination{
+	/*margin-top:-50px;
+	float:right;
+	margin-right:100px;*/
+	}
+.jPaginate{
+    height:34px;
+    position:relative;
+    color:#a5a5a5;
+    font-size:small;   
+	width:100%;
+    /*border: red solid 1px;*/
+    /*margin-left:1000px;*/
+}
+.jPaginate a{
+    line-height:15px;
+    height:18px;
+    cursor:pointer;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+.jPag-control-back{
+    border: #999 solid 1px;
+	position:absolute;
+	left:50px;
+}
+.jPag-control-front{
+    border: #999 solid 1px;
+	position:absolute;
+	top:0px;
+}
+.jPaginate span{
+    cursor:pointer;
+}
+
+ul.jPag-pages{
+    list-style-type:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+    left:100px;
+    border: red solid 1px;
+    /*margin-left:120px;*/
+}
+
+ul.jPag-pages li{
+    display:inline;
+    float:left;
+    padding:0px;
+    margin:0px;
+    /*border: red solid 1px;*/
+}
+
+ul.jPag-pages li a{
+    float:left;
+    padding:2px 5px;
+    /*border: red solid 1px;*/
+}
+span.jPag-current{
+    cursor:default;
+    font-weight:normal;
+    line-height:15px;
+    height:18px;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-next,
+span.jPag-sprevious,
+span.jPag-snext{
+    height:22px;
+    margin:2px;
+    float:left;
+    line-height:18px;
+    /*border: red solid 1px;*/
+}
+
+ul.jPag-pages li span.jPag-previous{
+    margin:2px 0px 2px 2px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+    /*border: red solid 1px;*/
+}
+ul.jPag-pages li span.jPag-next{
+    margin:2px 2px 2px 0px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+    /*border: red solid 1px;*/
+}
+span.jPag-sprevious{
+    margin:2px 0px 2px 2px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
+span.jPag-snext{
+    margin:2px 2px 2px 0px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
