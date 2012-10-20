@@ -1,22 +1,25 @@
 SampleCake
 ==========
 
-* 会员管理
+* Membership Management
 ---------
 
-- 会员办理会员卡后，一次交纳100元以上激活；
-- 不同级别的会员享受不同优惠；
-- 会员卡有效期一年，到期后不再缴费将停止其会员卡；
-- 会员卡冲值；
-* 销售、预订管理
+- After applied for membership card, clients need to pay 100 yuan to activate it;
+- Different Levels of menbership will enjoy different discounts;
+- Membership card is valid for just one year. After the expiration, the membership card will be ceased if not recharged;
+- Recharge;
+
+* Sales & Reservation Management
 ---------------
 
-- 产品分类管理，包括一周内每日可售的产品、数量、价格等；
-- 销售和预订；
-* 统计分析
+- Products Management based on Category, including names, quality and price of available products of a week;
+- Products Sales；
+- Products Reservation;
+
+* Statistics and Analysis
 -----------
 
-- 统计会员卡情况（包括激活、停止情况；会员年龄、性别、居住地等情况）；
-- 预订、售出情况；
-- 热卖产品；
-- 分析会员喜好、预测销售趋势（可选）；
+- Membership Card Situation, including status, age, gender and residence of memberhip;
+- Situation of Product Sales & Reservation;
+- Hot Products；
+- Prediction of Sale Trend;
